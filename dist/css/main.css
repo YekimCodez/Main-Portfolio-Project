@@ -1,1 +1,18 @@
-/*# sourceMappingURL=main.css.map */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(60, 2%, 24%);
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,18 @@
+// Main .scss file
+@import "./resets";
+@import "./variables";
+@import "./typography";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $gun-metal;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
