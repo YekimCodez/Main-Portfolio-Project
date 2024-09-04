@@ -15,4 +15,55 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  width: 60%;
+  height: 80vh;
+  position: absolute;
+  border: 1px solid #fff;
+}
+.wrapper .nav-home {
+  position: relative;
+  top: -190px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .nav-home .logo {
+  list-style-type: none;
+  margin-left: 0;
+}
+.wrapper .nav-home a {
+  color: hsl(210, 5%, 93%);
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+}
+.wrapper .nav-home .nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.wrapper .nav-home .nav-menu .menu-item {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+.wrapper .nav-home .nav-menu .menu-item:first-child {
+  margin-left: 0;
+}
+.wrapper .nav-home .nav-menu .menu-item a {
+  color: hsl(210, 5%, 93%);
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
 }/*# sourceMappingURL=main.css.map */
