@@ -2,6 +2,7 @@
 @import "./resets";
 @import "./variables";
 @import "./typography";
+@import "./image";
 
 body {
     background: $gun-metal;
@@ -61,6 +62,10 @@ body {
                 }
             }
         }
+    }
+
+    .my-image {
+        max-width: $image-max-width;
     }
 
     .background-tint {
