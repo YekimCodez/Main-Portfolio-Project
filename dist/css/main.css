@@ -5,24 +5,15 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: hsl(60, 2%, 24%);
-  height: 100vh;
   font-family: "Merriweather Sans";
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: hsl(222, 43%, 9%);
   padding: 3rem;
   width: 80%;
-  height: 80vh;
-  position: absolute;
-  border: 1px solid #fff;
+  margin: 0 auto;
 }
 .wrapper .nav-home {
   position: relative;
@@ -31,9 +22,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .wrapper .nav-home .logo {
   list-style-type: none;
@@ -67,4 +55,8 @@ body {
   position: relative;
   padding-bottom: 5px;
   transition: color 0.3s ease;
+}
+.wrapper .background-tint {
+  background-color: rgba(163, 105, 39, 0.904);
+  background-blend-mode: multiply;
 }/*# sourceMappingURL=main.css.map */

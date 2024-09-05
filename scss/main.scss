@@ -4,25 +4,16 @@
 @import "./typography";
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: $gun-metal;
-    height: 100vh;
     font-family: $font-family-primary;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: $rich-black;
+    // background: url(/assets/images/emile-perron-xrVDYZRGdw4-unsplash.jpg) center center / cover no-repeat;
     padding: 3rem;
     width: 80%;
-    height: 80vh;
-    position: absolute;
-
-    border: 1px solid #fff;
+    margin: 0 auto;
 
     .nav-home {
         position: relative;
@@ -31,9 +22,6 @@ body {
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 
         .logo {
             list-style-type: none;
@@ -73,6 +61,11 @@ body {
                 }
             }
         }
+    }
+
+    .background-tint {
+        background-color: rgba(163, 105, 39, 0.904);
+        background-blend-mode: multiply;
     }
 }
 
